@@ -11,22 +11,23 @@ chernivetska: Чернівецька
 
 #city
 chernivtsi: Чернівці
-# Новодністровськ
+novodnistrovsk: Новодністровськ
 
 #town
+vashkivtsi: Вашківці
 vyzhnytsia: Вижниця
-# Вашківці
-# Вижниця
-# Герца
-# Заставна
-# Кіцмань
-# Новоселиця
-# Сокиряни
-# Сторожинець
-# Хотин
+hertsa: Герца
+zastavna: Заставна
+kitsman: Кіцмань
+novoselytsia: Новоселиця
+sokyriany: Сокиряни
+storozhynets: Сторожинець
+khotyn: Хотин
 
 #district
 chernivetskyy: Чернівецький район
+dnistrovskyy: Дністровський район
+vyzhnytskyy: Вижницький район
 
 home: Головна
 ua: Нерухомість в Україні
