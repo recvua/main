@@ -1,33 +1,36 @@
 domain: realestate.cv.ua
-main_city: uzhhorod
+main_city: chernivtsi
 main_region: chernivetska
 
 flag_ua_city: Чернівці
 deck_region_in: Чернівецької області
 deck_region: Чернівецька
 
+local_communities: >
+  ...
+
 #region
-chernivetska: Чернівецька
+chernivetska: Чернівеччини
 
 #city
-chernivtsi: Чернівці
+chernivtsi: Чернівців
 novodnistrovsk: Новодністровськ
 
 #town
-vashkivtsi: Вашківці
-vyzhnytsia: Вижниця
-hertsa: Герца
-zastavna: Заставна
-kitsman: Кіцмань
-novoselytsia: Новоселиця
-sokyriany: Сокиряни
+vashkivtsi: Вашківців
+vyzhnytsia: Вижниці
+hertsa: Герцана
+zastavna: Заставни
+kitsman: Кіцманя
+novoselytsia: Новоселиці
+sokyriany: Сокирян
 storozhynets: Сторожинець
-khotyn: Хотин
+khotyn: Хотина
 
 #district
-chernivetskyy: Чернівецький район
-dnistrovskyy: Дністровський район
-vyzhnytskyy: Вижницький район
+chernivetskyy: Чернівецького району
+dnistrovskyy: Дністровського району
+vyzhnytskyy: Вижницького району
 
 home: Головна
 ua: Нерухомість в Україні
@@ -35,8 +38,8 @@ ukr: Українська нерухомість
 realestate: Нерухомість
 realestate_at: Нерухомість у
 
-m_za: за&nbsp;1&nbsp;м<sup>2</sup>
-m: м<sup>2</sup>
+m_za: за&nbsp;1&nbsp;м²
+m: м²
 
 news_list_empty: Новин поки що немає :(
 decisions_list_empty: Рішень поки що немає :(
@@ -271,3 +274,13 @@ articles: статті
 articles_all: Усі статті
 articles_back_list: Повернутися до списку статтей
 articles_list_empty: Cтаттей поки що немає :(
+#
+# Property
+#
+property: власність
+property_all: Усі власність
+property_back_list: Повернутися до списку власності
+property_list_empty: >
+  <p>У списку записів поки що немає :( ...</p>
+  <p>До цього переліку потрапляють лише записи у яких є окрема сторінка з описом об'єкта нерухомості.</p>
+  <p>Для перегляду інших записів перейдіть у режим списку.</p>
