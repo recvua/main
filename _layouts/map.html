@@ -47,9 +47,9 @@ layout: compress
     {%- capture name -%}{%- include footer/contact.html legal='name' -%}{%- endcapture -%}
     {%- if pageu contains '/map.html' -%}
       {%- if slashu.size == 4 -%}
-        {%- assign data = pageu | split: '/' | slice: 2, 3 | join: '/' | prepend: 'data/' -%}
-      {%- elsif slashu.size == 4 -%}
         {%- assign data = pageu | split: '/' | slice: 2, 4 | join: '/' | prepend: 'data/' -%}
+      {%- elsif slashu.size == 4 -%}
+        {%- assign data = pageu | split: '/' | slice: 2, 5 | join: '/' | prepend: 'data/' -%}        
       {%- elsif slashu.size == 5 -%}
         {%- assign data = pageu | split: '/' | slice: 3, 5 | join: '/' | prepend: 'data/' -%}
       {%- elsif slashu.size == 6 -%}
