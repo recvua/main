@@ -54,6 +54,7 @@ layout: compress
         {%- assign data = pageu | split: '/' | slice: 3, 6 | join: '/' | prepend: 'data/' -%}
       {%- endif -%}
     {%- endif -%}
+    <p>### {{ data }} ###</p>
     {%- if location != '' -%}
       {%- assign place = location -%}
     {%- else -%}
