@@ -14,23 +14,23 @@
 #
 # District
 #
-- type: district
-  item: chernivetskyy
-  name: Нерухомість у Чернівецькому районі
+#- type: district
+#  item: chernivetskyy
+#  name: Нерухомість у Чернівецькому районі
 
 #
 # District / Town
 #
-- type: town
-  item: vyzhnytsia
-  name: Нерухомість у місті Вижниця
+#- type: town
+#  item: vyzhnytsia
+#  name: Нерухомість у місті Вижниця
 
 #
 # Region / City
 #
-- type: city
-  item: chernivtsi
-  name: Нерухомість у місті Чернівці
+#- type: city
+#  item: chernivtsi
+#  name: Нерухомість у місті Чернівці
 
 #
 # Developers / Company
@@ -42,9 +42,9 @@
 #
 # Realtor / Agent
 #
-- type: realtor
-  item: bandera
-  name: Нерухомість в Чернівцях - Степан Бандера
+#- type: realtor
+#  item: bandera
+#  name: Нерухомість в Чернівцях - Степан Бандера
   # address: 76018, м. Івано-Франківськ, вул.&nbsp;Січових&nbsp;Стрільців,&nbsp;56
   # phone_main: 380672349221
   # phone_hot: 380672349221
