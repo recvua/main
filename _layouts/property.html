@@ -132,10 +132,31 @@ layout: default
       {% if page.description != '' %}<p>{{ page.description }}.</p>{% endif %}
       {{ content }}
     {%- endif -%}
+
+    {%- include data/{{ site.region_slug }}/all.html -%}
+    {%- assign uid = page.uid | strip -%}
+    {%- assign location = page.location | default: page.region | strip -%}
+    {%- assign address = page.address | strip -%}
+    {%- assign offers = offers | where_exp: "i", "i.location == location and i.address == address and i.id != uid"-%}
+
+    {%- if offers.size > 0 -%}
+      {%- for offer in offers limit: 3 -%}
+        {%- capture aid -%}1{%- increment counter -%}{%- endcapture -%}
+        {%- if forloop.first -%}
+          <hr>
+          <h2>За цією адресою пропонують іншу нерухомість</h2>
+          <ul class="row mx-n2 row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 list-unstyled">
+        {%- endif -%}
+            <li class="col px-2 mb-3">{%- include property/card.html offer=offer aid=aid -%}</li>
+        {%- if forloop.last -%}
+          </ul>
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+
     {% comment %}
-      <h2>За цією адресою продається ще нерухомість</h2>
-      <h2>На цій вулиці продають іншу нерухомість</h2>
-      <h2>У цього продавця є інші оголошення</h2>
+      <h2>На цій вулиці також пропонують</h2>
+      <h2>{{ page.seller }} також пропонує</h2>
     {% endcomment %}
     {%- include back.html -%}
   </div>
