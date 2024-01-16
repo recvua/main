@@ -1,6 +1,9 @@
-Host: https://www.realestate.cv.ua
-Sitemap: https://www.realestate.cv.ua/sitemap.xml
 User-agent: *
+Allow: /
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /assets/images/logo/
+Disallow: /assets/images/staff/
 Disallow: */data/
 Disallow: /*/data/*
 Disallow: /*/data/
@@ -9,4 +12,4 @@ Disallow: *.json
 Disallow: /404.html
 Disallow: /add.html
 Disallow: /new.html
-Allow: /
+Sitemap: https://www.realestate.cv.ua/sitemap.xml
