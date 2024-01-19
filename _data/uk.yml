@@ -3,7 +3,8 @@ main_city: chernivtsi
 main_region: chernivetska
 
 flag_ua_city: Чернівці
-deck_region_in: Чернівецької області
+deck_region_in: Чернівецької
+deck_region_at: Чернівецькій
 deck_region: Чернівецька
 
 local_communities: >
