@@ -1,15 +1,15 @@
 #
 # Region
 #
-- type: region
-  item: chernivetska
-  name: Мережа Вебсайтів Нерухомості - Україна
-  address: 76018, м. Івано-Франківськ, вул.&nbsp;Січових&nbsp;Стрільців,&nbsp;56
-  phone_main: 380974949649
-  phone_hot: 380974949649
-  phone_fax: 380974949649
-  email: info@realestate.cv.ua
-  www: https://www.realestate.cv.ua/
+# - type: region
+#   item: chernivetska
+#   name: Мережа Вебсайтів Нерухомості - Україна
+#   address: 76018, м. Івано-Франківськ, вул.&nbsp;Січових&nbsp;Стрільців,&nbsp;56
+#   phone_main: 380974949649
+#   phone_hot: 380974949649
+#   phone_fax: 380974949649
+#   email: info@realestate.cv.ua
+#   www: https://www.realestate.cv.ua/
 
 #
 # District
@@ -38,6 +38,13 @@
 - type: developer
   item: builder
   name: Будівельна компанія "Будівельник"
+  address: 58000, м. Чернівці, вул.&nbsp;Степана&nbsp;Бандери,&nbsp;0
+  phone_main: 380000000000
+  phone_hot: 380000000000
+  phone_fax: 380000000000
+  phone_buy: 380000000000
+  email: developer@realestate.uz.ua
+  www: https://www.realestate.uz.ua/
 
 #
 # Realtor / Agent
@@ -55,12 +62,13 @@
 - type: realtor
   item: agent
   name: Нерухомість від Агента Продавця
-  # address: 76018, м. Івано-Франківськ, вул.&nbsp;Січових&nbsp;Стрільців,&nbsp;56
-  # phone_main: 380504949649
-  # phone_hot: 380504949649
-  # phone_fax: 380504949649
-  # email: agent@realestate.uz.ua
-  # www: https://www.realestate.uz.ua/
+  address: 58000, м. Чернівці, вул.&nbsp;Степана&nbsp;Бандери,&nbsp;0
+  phone_main: 380000000000
+  phone_hot: 380000000000
+  phone_fax: 380000000000
+  phone_buy: 380000000000
+  email: realtor@realestate.uz.ua
+  www: https://www.realestate.uz.ua/
 
 #
 # Agency / ahentsiya
@@ -68,9 +76,10 @@
 - type: agency
   item: ahentsiya
   name: Нерухомість від Агенції Продавця
-  # address: 76018, м. Івано-Франківськ, вул.&nbsp;Січових&nbsp;Стрільців,&nbsp;56
-  # phone_main: 380504949649
-  # phone_hot: 380504949649
-  # phone_fax: 380504949649
-  # email: agency@realestate.uz.ua
-  # www: https://www.realestate.uz.ua/
+  address: 58000, м. Чернівці, вул.&nbsp;Степана&nbsp;Бандери,&nbsp;0
+  phone_main: 380000000000
+  phone_hot: 380000000000
+  phone_fax: 380000000000
+  phone_buy: 380000000000
+  email: agency@realestate.uz.ua
+  www: https://www.realestate.uz.ua/
